@@ -28,5 +28,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        goButton.setOnClickListener{
+            webView.loadUrl(urlEditText.text.toString())
+        }
+
     }
+
 }
